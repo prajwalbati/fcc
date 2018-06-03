@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Portfolio Page</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <style type="text/css">
+    .portfolio-page {
+      background-color:#bbded6;
+      color:#333;
+      font-family: Lato, sans-serif;
+      font-size: 18px;
+      line-height:2;
+      font-weight:normal;
+    }
+    .header {
+      background: #afd4d3;
+      height: 80px;
+      margin-bottom: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #a6b2ef;
+    }
+    .header a {
+      text-decoration: none;
+      color: #000;
+    }
+    .brand {
+      margin-top:-8px;
+    }
+    .sticky-header {
+      border-bottom: transparent;
+      position: fixed;
+      top: 0;
+      width:100%;
+      z-index:9999;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .sticky-header a {
+      color: #FFF;
+    }
+    .sticky-header a:hover {
+      color: #FFF;
+      background-color:transparent;
+    }
+    nav > a {
+      color: #555;
+      padding: 28px 10px 31px 10px;
+    }
+    nav > a:hover {
+      background-color:#61c0bf;
+      color: #000
+    }
+    h2.title {
+      padding: 15px 0;
+      text-align: center;
+      font-weight: 600;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    hr {
+      width: 20%;
+      border-top: 1px solid #333;
+      margin-top: -10px;
+    }
+    .aboutus {
+      margin-bottom:30px;
+      background-color: #bbded6;
+    }
+    .aboutus strong {
+      font-size: 25px;
+    }
+    .aboutus img{
+      width: 100%;
+      border-radius: 10px;
+    }
+    .portfolio {
+      background-color: #fae3d9;
+      padding-bottom: 30px;
+    }
+    .portfolio img {
+      border-radius: 5px;
+    }
+    .portfolio img:hover {
+      cursor: pointer;
+    }
+    .skills {
+      background: #ffb6b9;
+    }
+    .skills ul {
+      display: block;
+      margin: 0 auto;
+      padding: 0;
+      max-width: 800px;
+    }
+    .skills li {
+      display: inline-block;
+      margin: 7px;
+      padding: 5px 10px;
+      color: #374054;
+      background: #e4e4ea;
+      list-style: none;
+      cursor: default;
+      font-size: 1.2em;
+    }
+    .contact {
+      color: #FFF;
+      background-color:#3498db;
+      padding-bottom: 30px;
+    }
+    .followSocial a {
+      text-decoration: none;
+      color:#333;
+    }
+    .followSocial i {
+      padding-right:15px;
+      cursor:pointer;
+    }
+    .followSocial a:hover {
+      color: black;
+    }
+    .footer {
+      color: #FFF;
+      background-color:#0b79c3;
+      text-align:center;
+      padding: 10px 0;
+    }
+    .footer a {
+      color: #222;
+      text-decoration:none;
+    }
+    .footer a:hover {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="portfolio-page">
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <header>
+              <div class="brand pull-left">
+                <h2><a href="/">Prajwal Bati</a></h2>
+              </div>
+              <nav class="pull-right">
+                <a id="aboutSection" href="#">About</a>
+                <a id="portfolioSection" href="#">Portfolio</a>
+                <a id="skillSection" href="#">Skills</a>
+                <a id="contactSection" href="#">Contact</a>
+              </nav>
+            </header>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Me -->
+    <div class="aboutus">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p><strong>Hello everyone!</strong><br>I am a front end developer working on html, css and javascript since 2015 AD. My core working area became javascript and I have developed web applications in the mean time. My long term objective is to become a full stack developer. I have some knowledge of java and php and worked on it few times. I also got some bash scripting skills.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/14102475_10205464539651283_2372462448076673219_n.jpg?_nc_cat=0&oh=63633dc8998c834b752e65f980c965d8&oe=5B8F9654" alt="prajwal bati">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio -->
+    <div class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="title">Portfolio</h2>
+            <hr>
+            <p>I have developed several web based applications and static websites. You can hover over the thumnails to view the details of the project.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://via.placeholder.com/350x250" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="http://via.placeholder.com/350x250" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="http://via.placeholder.com/350x250" alt="">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://via.placeholder.com/350x250" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="http://via.placeholder.com/350x250" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="http://via.placeholder.com/350x250" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skills -->
+    <div class="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="title">Skills</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>AngularJs</li>
+              <li>PHP</li>
+              <li>Wordpress</li>
+              <li>Laravel</li>
+              <li>Java</li>
+              <li>Spring</li>
+              <li>Gulp</li>
+              <li>Bash</li>
+              <li>Git</li>
+              <li>Ionic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="title">Contact Me</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contactForm">
+              <form class="" action="">
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" placeholder="Full Name" class="form-control" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="email" placeholder="Email" class="form-control" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <textarea placeholder="Write your message" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <button class="btn btn-success pull-right">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-2">&nbsp;</div>
+          <div class="col-md-5">
+            <div class="followSocial pull-left">
+              <a href="#">
+                <i class="fab fa-3x fa-facebook-square"></i>
+               </a>
+              <a href="#">
+                <i class="fab fa-3x fa-twitter-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-3x fa-google-plus-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-3x fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <footer>
+      All right reserved &copy; <a href="http://prajwalbati.com.np" target="_blank">Prajwal Bati</a>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      window.onscroll = function(e) {
+        var windowScroll = $(window).scrollTop();
+        if (windowScroll > 150) {
+          $(".header").addClass("sticky-header");
+        } else {
+           $(".header").removeClass("sticky-header");
+        }
+      };
+      
+      $("#aboutSection").click(function() {
+          $('html, body').animate(
+                {scrollTop: $(".aboutus").offset().top-150}, 1000);
+      });
+      $("#portfolioSection").click(function() {
+          $('html, body').animate(
+                {scrollTop: $(".portfolio").offset().top-200}, 1000);
+      });
+      $("#skillSection").click(function() {
+          $('html, body').animate(
+                {scrollTop: $(".skills").offset().top-150}, 1000);
+      });
+      $("#contactSection").click(function() {
+          $('html, body').animate(
+                {scrollTop: $(".contact").offset().top-150}, 1000);
+      });
+    });
+  </script>
+</body>
+</html>
