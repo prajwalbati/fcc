@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Graphics Using CSS</title>
+    <style>
+    body {
+      margin-left : 100px;
+    }
+    .moon {
+      width: 100px;
+      height: 100px;
+      background-color: transparent;
+      border-radius: 50%;
+      box-shadow: 25px 10px 0px 0px green;
+    }
+    .heart {
+      background-color: pink;
+      height: 50px;
+      width: 50px;
+      transform: rotate(-45deg);
+    }
+    .heart:after {
+      background-color: pink;
+      content: "";
+      border-radius: 50%;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: 0px;
+      left: 25px;
+    }
+    .heart:before {
+    content: "";
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+    }
+    </style>
+  </head>
+  <body>
+    <h3>Moon Creasent</h3>
+    <div class="moon"></div>
+    <h3>Heart Shape</h3>
+    <div class="heart"></div>
+  </body>
+</html>
